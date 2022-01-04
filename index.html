@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+
+    <title>Formulario básico HTML5</title>
+</head>
+
+<body class="container">
+    <form method="post" action="https://vigo-rocks.free.beeceptor.com">
+
+        <fieldset>
+
+            <label for="nombre">Nombre: </label>
+            <input type="text" required maxlength="50" placeholder="Óscar" name="nombre" id="nombre" required>
+
+
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad" min="18" max="99" value="18" required>
+
+            <label for="ciudad">Ciudad de origen:</label>
+            <input type="text" id="ciudad" name="ciudad" maxlength="100" placeholder="Redondela" required>
+
+            <label for="transporte">¿Cómo vienes al curso?</label>
+            <select name="transporte" id="transporte" required>
+                <option value="1">A pie</option>
+                <option value="2">Transporte público</option>
+                <option value="3">Transporte privado</option>
+            </select>
+        </fieldset>
+
+        <input type="submit" class="submit" id="submit" value="Enviar" />
+
+    </form>
+</body>
+
+</html>
