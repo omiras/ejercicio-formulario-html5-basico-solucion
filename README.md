@@ -6,6 +6,7 @@ Crea un formulario para enviar tu presentación en el curso Full Stack.
 
 - Nombre. Como mucho tiene 50 carácteres de largo. Campo requerido.
 - Edad. Debe ser un número entre 18 y 99. Piensa que existe un control que nos obliga a poner solo números. Campo requerido.
+- DNI: Excactamente debe tener 9 carácteres. Usa el atributo __pattern__ para formatear el DNI. No tienes porque poner tu dni real... Campo requerido.
 - Ciudad de origen. Texto libre de hasta 100 carácteres. Campo requerido.
 - Como vienes a estudiar. Es un selector con 3 opciones: A pie, transporte público, trasporte privado. Por defecto, debe estar seleccionado "a pie". Campo requerido.
 - Objetivos del curso. Es un texto libre de hasta 1024 palabras. No es obligatorio.
