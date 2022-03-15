@@ -1,4 +1,4 @@
-# Mi presentación en Altia
+# Mi presentación 
 
 Crea un formulario para enviar tu presentación en el curso Full Stack.
 
@@ -15,6 +15,6 @@ Si el formulario no cumple alguna de las validaciones NO debe poderse enviar.
 
 ## Configuración del formularo
 
-1. El **atributo** action debe tener por valor el **endpoint** donde vamos a enviar la información. En este caso es: https://vigo-rocks.free.beeceptor.com
+1. El **atributo** action debe tener por valor el **endpoint** donde vamos a enviar la información. En este caso es: https://singulars2022.free.beeceptor.com
 2. El método de envío HTTP debe ser **POST**.
 3. Recuerda que es **imprescindible** que cada campo del formulario tenga el atributo **name**; o no se va a enviar ningún tipo de información.
