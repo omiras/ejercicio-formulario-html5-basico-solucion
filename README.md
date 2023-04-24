@@ -10,7 +10,7 @@ Busca en este [enlace](https://www.w3schools.com/html/html_form_elements.asp) lo
 - (DIFÍCIL):  DNI: Excactamente debe tener 9 carácteres. Usa el atributo __pattern__ para formatear el DNI. No tienes porque poner tu dni real... Campo requerido.
 - Ciudad de origen. Texto libre de hasta 100 carácteres. Campo requerido.
 - Como vienes a estudiar. Es un selector con 3 opciones: A pie, transporte público, trasporte privado. Por defecto, debe estar seleccionado "a pie". Campo requerido.
-- Objetivos del curso. Es un texto libre de hasta 1024 palabras. No es obligatorio.
+- Objetivos del curso. Es un texto libre de hasta 1024 carácteres. No es obligatorio.
 
 
 Si el formulario no cumple alguna de las validaciones NO debe poderse enviar.
