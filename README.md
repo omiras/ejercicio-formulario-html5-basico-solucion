@@ -17,6 +17,6 @@ Si el formulario no cumple alguna de las validaciones NO debe poderse enviar.
 
 ## Parte 2 - Configuración del formulario
 
-1. El **atributo** action debe tener por valor el **endpoint** donde vamos a enviar la información. En este caso es: https://singulars2023.free.beeceptor.com
+1. El **atributo** action debe tener por valor el **endpoint** donde vamos a enviar la información. En este caso es: [https://singulars2023.free.beeceptor.com](https://pimec2023.free.beeceptor.com)
 2. El método de envío HTTP debe ser **POST**.
 3. Recuerda que es **imprescindible** que cada campo del formulario tenga el atributo **name**; o no se va a enviar ningún tipo de información.
