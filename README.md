@@ -15,7 +15,7 @@ Busca en este [enlace](https://www.w3schools.com/html/html_form_elements.asp) lo
 
 Si el formulario no cumple alguna de las validaciones NO debe poderse enviar.
 
-## Parte 2 - Configuración del formularo
+## Parte 2 - Configuración del formulario
 
 1. El **atributo** action debe tener por valor el **endpoint** donde vamos a enviar la información. En este caso es: https://singulars2023.free.beeceptor.com
 2. El método de envío HTTP debe ser **POST**.
