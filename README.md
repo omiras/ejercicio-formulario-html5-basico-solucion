@@ -2,6 +2,7 @@
 
 Crea un formulario para enviar tu presentación en el curso Full Stack.
 Busca en este [enlace](https://www.w3schools.com/html/html_form_elements.asp) los diferentes tipos de controles de formulario que existen para crear todo lo que se te pide en la parte 1
+Tan solo céntrate en el HTML. Esta app Web tiene un CSS externo que le está dando estilo.
 
 ## Parte 1 - Campos que debe tener el formulario
 
