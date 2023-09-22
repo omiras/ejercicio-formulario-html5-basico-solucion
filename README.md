@@ -16,6 +16,8 @@ Tan solo céntrate en el HTML. Esta app Web tiene un CSS externo que le está da
 
 Si el formulario no cumple alguna de las validaciones NO debe poderse enviar.
 
+Aquí tenéis una [demo](https://4geeks-omiras.github.io/ejercicio-formulario-html5-basico-solucion-samane/) del aspecto aproximado que debería tener el formulario.
+
 ## Parte 2 - Configuración del formulario
 
 1. El **atributo** action debe tener por valor el **endpoint** donde vamos a enviar la información. En este caso es: https://pimec2023.free.beeceptor.com o bien https://pimec2023-2.free.beeceptor.com
