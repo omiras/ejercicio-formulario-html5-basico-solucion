@@ -20,6 +20,7 @@ Aquí tenéis una [demo](https://4geeks-omiras.github.io/ejercicio-formulario-ht
 
 ## Parte 2 - Configuración del formulario
 
-1. El **atributo** action debe tener por valor el **endpoint** donde vamos a enviar la información. En este caso es: https://request-data.onrender.com . 
+1. El **atributo** action debe tener por valor el **endpoint** donde vamos a enviar la información. En este caso es: https://request-data.onrender.com/register. 
 2. El método de envío HTTP debe ser **POST**.
 3. Recuerda que es **imprescindible** que cada campo del formulario tenga el atributo **name**; o no se va a enviar ningún tipo de información.
+4. Puedes comprobar además si tu petición ha llegado a buen puerto en la URL: https://request-data.onrender.com
