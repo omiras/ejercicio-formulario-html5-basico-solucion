@@ -27,7 +27,7 @@ Aquí tenéis una [DEMOSTRACIÓN](https://4geeks-omiras.github.io/ejercicio-form
 
 ### Parte 3 - BONUS: Validar el DNI Español
 
-Investiga cómo se hace para hacer que el texto del campo DNI sea validado.
-Puedes buscar por Internet cómo se puede usar el atributo _pattern_ del tag _input_ para lograrlo.
+Investiga cómo se hace para hacer que el texto del campo DNI sea validado.  
+Puedes buscar por Internet cómo se puede usar el atributo _pattern_ del tag _input_ para lograrlo.  
 Te adjunto una [solución](https://oscarm.tinytake.com/media/171dbb1?filename=1738236609479_TinyTake30-01-2025-12-30-03_638738334086463695.png&sub_type=thumbnail_preview&type=attachment&width=748&height=509) con su explicación.
 
