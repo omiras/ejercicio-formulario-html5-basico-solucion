@@ -9,10 +9,11 @@ Tan solo céntrate en el HTML. Esta app Web tiene un CSS externo que le está da
 - Nombre. Como mucho tiene 50 carácteres de largo. Campo requerido.
 - Edad. Debe ser un número entre 18 y 99. Piensa que existe un control que nos obliga a poner solo números. Campo requerido.
 - DNI: Excactamente debe tener 9 carácteres
+- Situación laboral: Empleado o desempleado. Por defecto, debe estar seleccionado desempleado.
 - Ciudad de origen. Texto libre de hasta 100 carácteres. Campo requerido.
 - Como vienes a estudiar. Es un selector con 3 opciones: A pie, transporte público, trasporte privado. Por defecto, debe estar seleccionado "a pie". Campo requerido. 
 - Objetivos del curso. Es un texto libre de hasta 1024 carácteres. No es obligatorio.
-
+- Fecha fin del curso. Debe poderse seleccionar una fecha. Es obligatorio rellenarlo.
 
 Si el formulario no cumple alguna de las validaciones NO debe poderse enviar.
 
