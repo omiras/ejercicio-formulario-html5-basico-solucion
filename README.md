@@ -23,7 +23,10 @@ Aquí tenéis una [DEMOSTRACIÓN](https://4geeks-omiras.github.io/ejercicio-form
 1. El **atributo** action debe tener por valor el **endpoint** donde vamos a enviar la información. En este caso es: https://request-data.onrender.com/register. Tienes algo de ayuda en [este enlace](https://lenguajehtml.com/html/formularios/etiqueta-html-form/#ejemplo-b%C3%A1sico-1)
 2. El método de envío HTTP debe ser  **POST**.
 3. Recuerda que es **imprescindible** que cada campo del formulario tenga el atributo **name**; o no se va a enviar ningún tipo de información.
-4. Puedes comprobar además si tu petición ha llegado a buen puerto en la URL: https://request-data.onrender.com
+4. Tras darle a enviar, sabrás que tus datos han llegado correctamente porque verás esta información en el navegador:
+<img src="https://oscarm.tinytake.com/media/1869b5c?filename=1783489238357_TinyTake08-07-2026-07-56-59_639190870225274423.png&sub_type=thumbnail_preview&type=attachment&width=673&height=201" title="Powered by TinyTake Screen Capture"/><br>
+
+Puedes comprobar además si tu petición ha llegado a buen puerto en la URL: https://request-data.onrender.com
 
 ### Parte 3 - BONUS: Validar el DNI Español
 
