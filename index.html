@@ -1,32 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Formulario básico HTML5</title>
 </head>
-
-<body class="container">
+<body>
     <h1>Formulario de inscripción</h1>
-    <form method="" action="">
+    <form action="https://request-data.onrender.com/register" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" maxlength="50" required>
+        <br><br>
 
-        <label for="nombre">Nombre: </label>
-        <input type="text" required maxlength="50" placeholder="Óscar" name="nombre" id="nombre" required>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="18" max="99" required>
+        <br><br>
 
-        
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" name="dni" minlength="9" maxlength="9">
+        <br><br>
+
+        Situación laboral:
+        <label><input type="radio" name="situacion" value="empleado"> Empleado</label>
+        <label><input type="radio" name="situacion" value="desempleado" checked> Desempleado</label>
+        <br><br>
+
+        <label for="ciudad">Ciudad de origen:</label>
+        <input type="text" id="ciudad" name="ciudad" maxlength="100" required>
+        <br><br>
+
+        <label for="transporte">Cómo vienes a estudiar:</label>
+        <select id="transporte" name="transporte" required>
+            <option value="a-pie" selected>A pie</option>
+            <option value="publico">Transporte público</option>
+            <option value="privado">Transporte privado</option>
+        </select>
+        <br><br>
+
+        <label for="objetivos">Objetivos del curso:</label>
         <br>
+        <textarea id="objetivos" name="objetivos" maxlength="1024" rows="4" cols="45"></textarea>
+        <br><br>
 
-        <!-- Escribe aquí el siguiente campo. -->
-   
-        
+        <label for="fecha">Fecha fin del curso:</label>
+        <input type="date" id="fecha" name="fecha" required>
+        <br><br>
 
-        <br>
-        <input type="submit" class="submit" id="submit" value="Enviar" />
-
+        <input type="submit" value="Enviar">
     </form>
 </body>
-
 </html>
