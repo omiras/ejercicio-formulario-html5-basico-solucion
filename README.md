@@ -32,3 +32,31 @@ Investiga cómo se hace para hacer que el texto del campo DNI sea validado.
 Puedes buscar por Internet cómo se puede usar el atributo _pattern_ del tag _input_ para lograrlo.  
 Te adjunto una [solución](https://oscarm.tinytake.com/media/171dbb1?filename=1738236609479_TinyTake30-01-2025-12-30-03_638738334086463695.png&sub_type=thumbnail_preview&type=attachment&width=748&height=509) con su explicación.
 
+
+## Ayuda para construir el formulario
+
+| Campo | Control y atributos que puedes consultar |
+| --- | --- |
+| Nombre | `input type="text"`, `maxlength="50"` y `required`. |
+| Edad | `input type="number"`, `min="18"`, `max="99"` y `required`. El paso predeterminado es 1 para edades enteras. |
+| DNI | `input type="text"`, `minlength="9"` y `maxlength="9"`. |
+| Situación laboral | Dos `input type="radio"` con el mismo `name`, distintos `value` y `checked` en desempleado. |
+| Ciudad | `input type="text"`, `maxlength="100"` y `required`. |
+| Transporte | `select` con `required` y tres `option` con su `value`. Usa `selected` en «A pie». |
+| Objetivos | `textarea` con `maxlength="1024"`, sin `required`. |
+| Fecha fin | `input type="date"` con `required`. |
+
+- Relaciona cada `label` con su control mediante `for` e `id`. También puedes colocar el control dentro de su `label`, como en las opciones de situación laboral.
+- Cada control que envía datos necesita `name`. Compartir el mismo `name` en los botones de opción permite elegir solo una situación.
+- Configura `action` y `method="post"` en `form`. Un botón `type="submit"` comprueba las validaciones antes del envío.
+- Puedes usar `<br>` para separar líneas. No necesitas CSS ni JavaScript.
+- Abre el ejercicio con Live Server. Prueba los campos vacíos y sus límites; utiliza datos ficticios si pruebas el envío al servicio de demostración.
+
+**Aclaración sobre el DNI:** el enunciado no lo marca como obligatorio, así que puede dejarse vacío. Si se rellena, debe tener nueve caracteres. Estos atributos comprueban la longitud, pero no el formato español ni la letra de control. La solución básica de la rama `solution` no usa `pattern` ni resuelve el BONUS. Validar un formato tampoco garantiza que la letra del DNI sea correcta.
+
+## Diseño esperado
+
+La captura muestra el formulario vacío y las opciones iniciales. El aspecto de los controles puede variar según el navegador.
+
+![Diseño esperado del formulario de inscripción](diseñoEsperado.png)
+
